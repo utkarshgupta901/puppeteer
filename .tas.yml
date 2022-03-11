@@ -9,7 +9,7 @@ preMerge:
 preRun:
      command:
         - npm install
-        - npm run tsc
+        - npm run tsc-cjs
 
-configFile: "./mocha-config/puppeteer-unit-tests.js"
+configFile: "mocha-config/puppeteer-unit-tests.js"
 version: 2.0
