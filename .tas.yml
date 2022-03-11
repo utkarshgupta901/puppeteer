@@ -10,7 +10,7 @@ preRun:
      command:
         - npm install
         - npm run prepare
-        - npm run tsc-cjs
+        - npm run tsc
 
 configFile: "./mocha-config/puppeteer-unit-tests.js"
 version: 2.0
