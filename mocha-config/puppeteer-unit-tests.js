@@ -19,8 +19,8 @@ const base = require('./base.js');
 module.exports = {
   ...base,
   require: [
-    './test/mocha-ts-require',
-    './test/mocha-utils.ts',
+    'test/mocha-ts-require',
+    'test/mocha-utils.ts',
     'source-map-support/register',
   ],
   spec: 'test/*.spec.ts',
